@@ -365,18 +365,52 @@ header{
         font-size: 36px;
     }
 
-    
+    header{
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    header .header_img{
+        height: 0;
+        width: 0;
+    }
 
     .header_form .header_text{
         margin-top: 100px;
+        position: relative;
+        height: auto;
     }
-}
+
+    .content .iphone_img{
+        width: 600px;
+        height: auto;
+    }
+
+    .ipad-content .ipad_img{
+        width: 600px;
+        height: auto;
+    }
+
+    .mac-content .macbook_img{
+        width: 700px;
+        height: auto;
+    }
+
+
+    }
+
+
+
+
+
+
+
 
 @media screen and (max-width: 414px) {
     header{
         height: auto;
         width: 414px;
-        padding: 0;
+        padding: 0 0 50px 0;
         margin: 0;
         text-align: center;
     }
@@ -398,10 +432,20 @@ header{
         height: auto;
     }
 
+    .content .mac_img{
+        width: 400px;
+        height: auto;
+    }
+
+
     section .ipad-content{
         display: grid;
         padding: 0;
         margin: 0;
+    }
+
+    .ipad-content .ipad_buttons{
+        padding-top: 30px;
     }
     
     .ipad-content .iphone-family{
